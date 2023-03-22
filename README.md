@@ -15,27 +15,25 @@ Official code for CVPR 2021 paper 'Parser-Free Virtual Try-on via Distilling App
 
 [[VGG_Model]](https://drive.google.com/file/d/1Mw24L52FfOT9xXm3I1GL8btn7vttsHd9/view?usp=sharing)
 
-## Our Environment
+## My Environment
 anaconda3
 
-pytorch 1.1.0
+pytorch 1.7.1+cu110
 
-torchvision 0.3.0
-
-cuda 9.0
+torchvision 0.8.2+cu110
 
 cupy 6.0.0
 
 opencv-python 4.5.1
 
-8 GTX1080 GPU for training; 1 GTX1080 GPU for test
+1 RTX3090Ti for training; 1 RTX3090Ti GPU for test
 
 python 3.6
 
 ## Installation
-conda create -n tryon python=3.6
+conda create -n try_on python=3.6
 
-source activate tryon     or     conda activate tryon
+conda activate try_on
 
 conda install pytorch=1.1.0 torchvision=0.3.0 cudatoolkit=9.0 -c pytorch
 
