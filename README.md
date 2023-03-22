@@ -22,7 +22,7 @@ pytorch 1.7.1+cu110
 
 torchvision 0.8.2+cu110
 
-cupy 6.0.0
+cupy 8.5.0
 
 opencv-python 4.5.1
 
@@ -35,9 +35,9 @@ conda create -n try_on python=3.6
 
 conda activate try_on
 
-conda install pytorch=1.1.0 torchvision=0.3.0 cudatoolkit=9.0 -c pytorch
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
-conda install cupy     or     pip install cupy==6.0.0
+pip install cupy==8.5
 
 pip install opencv-python
 
